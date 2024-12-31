@@ -1,0 +1,87 @@
+body {
+    /***
+      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
+      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
+   ***/
+    //  background-color: white;
+    //  .content {
+    //   font-size: 14px;
+    //  }
+    //  h1 {
+    //   color: black;
+    //  }
+
+a.filename {
+    font-size: 11px;
+}
+
+.filetree-sidebar {
+    width: 350px;
+}
+
+    .toc-title-container {
+    display: none;
+}
+
+.toc-container {
+    font-size: 0.7rem;
+    max-height: 100%;
+	border-left: none;
+}
+
+@font-face {
+    font-family: 'Bookerly';
+    src: url('https://github.com/afganrasulov/denemeler.rasulov.net/blob/2d878901adc7397350a5233e362dbb00bb9dbe6d/Bookerly-Regular.ttf/Bookerly-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bookerly';
+    src: url('https://github.com/afganrasulov/denemeler.rasulov.net/blob/2d878901adc7397350a5233e362dbb00bb9dbe6d/Bookerly-Bold.ttf/Bookerly-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bookerly';
+    src: url('https://github.com/afganrasulov/denemeler.rasulov.net/blob/2d878901adc7397350a5233e362dbb00bb9dbe6d/Bookerly-RegularItalic.ttf/Bookerly-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bookerly';
+    src: url('https://github.com/afganrasulov/denemeler.rasulov.net/blob/2d878901adc7397350a5233e362dbb00bb9dbe6d/Bookerly-BoldItalic.ttf/Bookerly-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+    font-family: Bookerly;
+    font-weight: 300;
+
+	/* Apply font settings for <p> elements */
+p, li {
+    font-family: Bookerly;
+    font-weight: 300;
+}
+
+/* Apply font settings for <h1> to <h6> and elements other than <p> and <strong> */
+h1, h2, h3, h4, h5, h6, strong {
+    font-family: Bookerly;
+    font-weight: bolder;
+}
+
+.graph-title {
+    display: none;
+}
+
+label[for="graph-depth"] {
+    display: none;
+}	
+
+.filetree-sidebar h1 {
+    display: none;
+}
+    
+}
