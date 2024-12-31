@@ -11,8 +11,6 @@ body {
     //   color: black;
     //  }
 
-font-family: 11px;    
-
 a.filename {
     font-size: 11px;
 }
@@ -59,11 +57,8 @@ a.filename {
     font-style: italic;
 }
 
-/* Apply the Bookerly font globally or to specific elements */
-* {
     font-family: Bookerly;
     font-weight: 300;
-}
 
 	/* Apply font settings for <p> elements */
 p, li {
