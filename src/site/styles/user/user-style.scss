@@ -3,30 +3,33 @@ body {
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+    /* Example styles */
+    // background-color: white !important;
+
+    // h1 {
+    //   color: black !important;
+    // }
+
+    font-family: Bookerly !important;
+    font-weight: 300 !important;
+}
 
 a.filename {
-    font-size: 11px;
+    font-size: 11px !important;
 }
 
 .filetree-sidebar {
-    width: 350px;
+    width: 350px !important;
 }
 
-    .toc-title-container {
-    display: none;
+.toc-title-container {
+    display: none !important;
 }
 
 .toc-container {
-    font-size: 0.7rem;
-    max-height: 100%;
-	border-left: none;
+    font-size: 0.7rem !important;
+    max-height: 100% !important;
+    border-left: none !important;
 }
 
 @font-face {
@@ -57,31 +60,24 @@ a.filename {
     font-style: italic;
 }
 
-    font-family: Bookerly;
-    font-weight: 300;
-
-	/* Apply font settings for <p> elements */
 p, li {
-    font-family: Bookerly;
-    font-weight: 300;
+    font-family: Bookerly !important;
+    font-weight: 300 !important;
 }
 
-/* Apply font settings for <h1> to <h6> and elements other than <p> and <strong> */
 h1, h2, h3, h4, h5, h6, strong {
-    font-family: Bookerly;
-    font-weight: bolder;
+    font-family: Bookerly !important;
+    font-weight: bolder !important;
 }
 
 .graph-title {
-    display: none;
+    display: none !important;
 }
 
 label[for="graph-depth"] {
-    display: none;
-}	
+    display: none !important;
+}
 
 .filetree-sidebar h1 {
-    display: none;
-}
-    
+    display: none !important;
 }
