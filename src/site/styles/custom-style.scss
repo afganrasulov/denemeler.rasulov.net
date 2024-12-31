@@ -31,6 +31,37 @@ a.filename {
 	border-left: none;
 }
 
+@font-face {
+    font-family: 'Bookerly';
+    src: url('path-to-font/Bookerly-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Bookerly';
+    src: url('path-to-font/Bookerly-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bookerly';
+    src: url('path-to-font/Bookerly-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bookerly';
+    src: url('path-to-font/Bookerly-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Apply the Bookerly font globally or to specific elements */
+body {
+    font-family: 'Bookerly', serif;
+}
     
 }
