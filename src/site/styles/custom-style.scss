@@ -66,42 +66,23 @@ body {
 }
 
 	/* Apply font settings for <p> elements */
-p {
+p, li {
     font-family: Bookerly;
     font-weight: 300;
 }
 
 /* Apply font settings for <h1> to <h6> and elements other than <p> and <strong> */
-h1, h2, h3, h4, h5, h6, :not(p), :not(li) {
+h1, h2, h3, h4, h5, h6 {
     font-family: Bookerly;
     font-weight: bolder;
 }
 
-	.graph-title::after {
-    content: "Bağlantılı Sayfalar"; /* Replace with your translated text */
-    display: inline;
-    color: inherit; /* Keep the existing color */
-    font-size: inherit; /* Keep the existing font size */
-    margin-left: 5px; /* Adjust spacing if needed */
-}
-
 .graph-title {
-    color: transparent; /* Hide the original text */
+    display: none;
 }
 
-	/* Target the label containing 'Depth' */
-label[for="graph-depth"]::after {
-    content: "Derinlik"; /* Replace with your translated text */
-    display: inline;
-    color: inherit; /* Keep the existing color */
-    font-size: inherit; /* Keep the existing font size */
-    margin-left: 0; /* Adjust spacing if needed */
-}
-
-/* Hide the original 'Depth' text */
 label[for="graph-depth"] {
-    color: transparent; /* Make the original text invisible */
-}
-
+    display: none;
+}	
     
 }
